@@ -11,7 +11,7 @@ end
 
 %%
 close all
-    figure, plot((-1)*e(1:80,1)/1000.0,'ro-');
+    figure, plot((-1)*e(1:120,6)/1000.0,'ro-');
     grid on;
     title('K SHELLS');
     %matches plots of K shells for first 80 elements 
