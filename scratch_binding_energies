@@ -1,0 +1,14 @@
+
+
+Z =1;
+for Z = 1:120
+    for ii = 1:7
+        e(Z,ii) = -13.6 *Z^2/ii^2;
+    end
+
+    
+end
+
+    figure, plot(e(10,1),'ro-');
+    grid on;
+    title('K SHELLS');
